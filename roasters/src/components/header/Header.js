@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import logo from "../../images/ЛОГО.png";
+import logo from "../../images/лого.svg";
 import basket from "../../images/shopping_bag.svg";
 import trash from "../../images/мусорка.svg";
 import cross from "../../images/cross.svg";
