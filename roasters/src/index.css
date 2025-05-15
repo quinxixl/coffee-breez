@@ -1,0 +1,13 @@
+@import "scss/header/header.css";
+@import "scss/about/about.css";
+@import "scss/reset.css";
+@import "scss/catalog/catalog.css";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Comfortaa', sans-serif;
+}

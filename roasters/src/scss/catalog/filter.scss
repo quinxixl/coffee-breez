@@ -1,0 +1,46 @@
+.catalog {
+  &__wrapper{
+    padding-top: 40px;
+    padding-left: 50px;
+  }
+  &__title{
+    font-size: 96px;
+    font-weight: bold;
+    color: #0048B1;
+  }
+  &__filter{
+    display: flex;
+    gap: 200px;
+  }
+  &__opt{
+    padding-top: 28px;
+
+    &-title{
+      font-weight: bold;
+      color: #0048B1;
+    }
+
+    &-href{
+      font-size: 24px;
+      color: black;
+      background-color: #FADADD;
+      border-radius: 50px;
+      padding: 20px 15px;
+    }
+  }
+  &__choose{
+    display: flex;
+    gap: 80px;
+
+    &-item{
+      font-size: 32px;
+      font-weight: bold;
+      background-color: #0048B1;
+      color: white;
+      border-radius: 50px;
+      padding: 20px 25px;
+    }
+  }
+
+
+}

@@ -1,0 +1,150 @@
+header{
+  position: relative;
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 4px solid #0048B1;
+
+  &__logo{
+    margin-left: 20px;
+  }
+
+  &__navigation {
+    display: flex;
+    gap: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
+    font-size: 36px;
+
+
+    &-item{
+      color: #000000;
+    }
+  }
+
+  &__basket{
+    cursor: pointer;
+    width: 75px;
+    height: 75px;
+    background-color: #FADADD;
+    border-radius: 50px;
+    padding-left: 19px;
+    padding-top: 10px;
+    margin-right: 70px;
+  }
+
+  &__cart{
+    position: absolute;
+    top: 180px;
+    left: 1300px;
+    background-color: #ffffff;
+    border: 5px solid #0048B1;
+    border-radius: 30px;
+    width: 570px;
+    height: 470px;
+
+    &-container{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      padding: 0 20px;
+    }
+    &-title{
+      font-size: 36px;
+      font-weight: bold;
+      margin-top: 13px;
+    }
+
+    &-empty{
+      font-size: 28px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 150px;
+    }
+
+    &-container-1{
+      display: flex;
+      gap: 10px;
+    }
+
+    &-container-2{
+      display: flex;
+      gap: 10px;
+      margin-top: 5px;
+    }
+
+
+    &-items{
+      overflow: scroll;
+      width: 550px;
+      height: 250px;
+      display: flex;
+      padding: 0 30px;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    &-item{
+      display: flex;
+      justify-content: space-between;
+
+      &-image{
+        border: 3px solid #FADADD;
+        border-radius: 5px;
+        width: 76px;
+        height: 76px;
+      }
+      &-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 24px;
+        font-weight: bold;
+      }
+      &-quantity{
+        font-size: 32px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        &-1{
+          border: 3px solid #FADADD;
+          border-radius: 50px;
+          padding: 5px 20px;
+        }
+        &-value{
+          color: black;
+        }
+      }
+      &-remove{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+      }
+      &-link{
+        position: relative;
+        color: #0048B1;
+        font-size: 32px;
+        font-weight: bold;
+        background-color: #FADADD;
+        border-radius: 50px;
+        padding: 15px 35px;
+        top: 17px;
+        margin-left: 160px;
+      }
+    }
+    &-total{
+      font-size: 28px;
+      font-weight: bold;
+      margin-left: 20px;
+    }
+
+  }
+}
