@@ -60,14 +60,28 @@ export default function Header(props) {
                                                     />
                                                     <div className="header__cart-item-info">
                                                         <p>{item.title}</p>
-                                                        <p>{item.price1}</p>
+                                                        <p>{item.selectedPrice}</p>
                                                     </div>
                                                 </div>
                                                 <div class="header__cart-container-2">
                                                     <div className="header__cart-item-quantity">
-                                                        <a href="#" className="header__cart-item-quantity-value">-</a>
+                                                        <a href="#"
+                                                           className="header__cart-item-quantity-value"
+                                                           onClick={(e) => {
+                                                               e.preventDefault();
+                                                               e.stopPropagation();
+                                                               props.decrementQuantity(item.id);
+                                                           }}
+                                                        >-</a>
                                                         <div className="header__cart-item-quantity-1"><p>{item.quantity}</p></div>
-                                                        <a href="#" className="header__cart-item-quantity-value">+</a>
+                                                        <a href="#"
+                                                           className="header__cart-item-quantity-value"
+                                                           onClick={(e) => {
+                                                               e.preventDefault();
+                                                               e.stopPropagation();
+                                                               props.incrementQuantity(item.id);
+                                                           }}
+                                                        >+</a>
                                                     </div>
                                                     <a
                                                         onClick={(e) => {
@@ -86,7 +100,7 @@ export default function Header(props) {
                                     <span>Итого:</span>
                                     <span>
                                         {props.cartItems.reduce(
-                                            (sum, item) => sum + (parseInt(item.price1) * item.quantity),
+                                            (sum, item) => sum + (parseInt(item.selectedPrice.replace(/\D/g, '')) * item.quantity),
                                             0
                                         )} руб
                                     </span>
