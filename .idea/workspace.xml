@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b3d988b-5cf1-4764-96ea-89966129f8a1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/roasters/src/components/footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roasters/src/scss/footer/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roasters/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/roasters/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roasters/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/roasters/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roasters/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/roasters/node_modules/.cache/default-development/1.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roasters/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/roasters/node_modules/.cache/default-development/2.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roasters/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/roasters/node_modules/.cache/default-development/3.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roasters/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/roasters/node_modules/.cache/default-development/4.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roasters/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/roasters/node_modules/.cache/default-development/5.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roasters/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/roasters/node_modules/.cache/default-development/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roasters/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/roasters/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roasters/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/roasters/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roasters/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/roasters/src/components/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roasters/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/roasters/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roasters/src/scss/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/roasters/src/scss/header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roasters/src/scss/header/header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/roasters/src/scss/header/header.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roasters/src/scss/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/roasters/src/scss/header/header.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2x8ZXlUmGTNDGTnuatGLRQLso6V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/deker356/Desktop/проекты/coffee/coffee-breez",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/deker356/Desktop/проекты/coffee/coffee-breez/coffee-backend/node_modules/prettier",
+    "settings.editor.selected.configurable": "configurable.group.language",
+    "ts.external.directory.path": "/Users/deker356/Desktop/проекты/coffee/coffee-breez/coffee-backend/node_modules/typescript/lib"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.112" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b3d988b-5cf1-4764-96ea-89966129f8a1" name="Changes" comment="" />
+      <created>1734527501858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734527501858</updated>
+      <workItem from="1734527502885" duration="574000" />
+      <workItem from="1747321703535" duration="4718000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

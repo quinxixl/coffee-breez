@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/header/Header";
 import About from "./components/About";
 import Catalog from "./components/catalog/Catalog";
+import {Footer} from "./components/footer/Footer";
 
 class App extends React.Component {
     constructor(props) {
@@ -71,6 +72,7 @@ class App extends React.Component {
               <Header cartItems={this.state.cartItems} removeFromCart={this.removeFromCart} incrementQuantity={this.incrementQuantity} decrementQuantity={this.decrementQuantity}/>
               <About />
               <Catalog onAdd={this.addToCart}/>
+              <Footer />
           </div>
       );
   }
